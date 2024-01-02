@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-file_path= "/home/btu/CarbonEmission/TempInc.csv"
+file_path= "/home/CarbonEmission/TempInc.csv"
 data=pd.read_csv(file_path)
 
 y=np.array(data["Year"])
