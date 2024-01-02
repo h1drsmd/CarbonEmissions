@@ -12,10 +12,10 @@ for index, row in df.iterrows():
 	plt.plot(years,emissions, label=country)
 
 
-plt.xlabel("Year", fontsize=20)
-plt.ylabel("Carbon Emissions", fontsize=20)
-plt.title("Carbon Emissions Over Time for All Countries", fontsize=30)
-plt.legend(loc=(1,0.295), fontsize=14.5)
+plt.xlabel("Year", fontsize=25)
+plt.ylabel("Carbon Emissions", fontsize=25)
+plt.title("Carbon Emissions Over Time for All Countries", fontsize=35, fontweight="bold")
+plt.legend(loc=(1,0.295), fontsize=15)
 plt.subplots_adjust(left=0.1, right=0.8)
 plt.grid(True)
 
