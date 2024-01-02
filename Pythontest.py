@@ -16,7 +16,7 @@ plt.xlabel("Year", fontsize=20)
 plt.ylabel("Carbon Emissions", fontsize=20)
 plt.title("Carbon Emissions Over Time for All Countries", fontsize=30)
 plt.legend(loc=(1,0.295), fontsize=14.5)
-plt.subplots_adjust(left=0.05, right=0.75)
+plt.subplots_adjust(left=0.05, right=0.8)
 plt.grid(True)
 
 plt.show()
