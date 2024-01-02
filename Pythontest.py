@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-file_path= "/home/btu/CarbonEmission/CO2Emissions.csv"
+file_path= "/home/CarbonEmissions/CO2Emissions.csv"
 df=pd.read_csv(file_path)
 
 plt.figure(figsize=(9,4))
