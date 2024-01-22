@@ -1,14 +1,11 @@
 import pandas as pd
 import csv
 
-# Read the CSV file
 file_path = 'SurfaceTemp.csv'
 df = pd.read_csv(file_path, index_col=0)
 
-# Transpose the DataFrame
 df_transposed = df.transpose()
 
-# Save the transposed data to a new CSV file
 transposed_file_path = 'ProcessedSurfaceTemp.csv'
 df_transposed.to_csv(transposed_file_path)
 
